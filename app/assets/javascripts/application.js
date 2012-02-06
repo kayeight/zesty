@@ -12,4 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require underscore
+//= require backbone
+//= require backbone_rails_sync
+//= require backbone_datalink
+//= require backbone/zesty
+>>>>>>> d23b49b49753b4d7e51a3493d512ab31a9a58e6b
 //= require_tree .

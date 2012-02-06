@@ -37,7 +37,10 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.2.0)
+    daemons (1.1.6)
+    ejs (1.0.0)
     erubis (2.7.0)
+    eventmachine (0.12.10)
     execjs (1.3.0)
       multi_json (~> 1.0)
     hike (1.2.1)
@@ -54,6 +57,10 @@ GEM
     mime-types (1.17.2)
     multi_json (1.0.4)
     mysql2 (0.3.11)
+<<<<<<< HEAD
+=======
+    pg (0.12.2)
+>>>>>>> d23b49b49753b4d7e51a3493d512ab31a9a58e6b
     polyglot (0.3.3)
     rack (1.4.1)
     rack-cache (1.1)
@@ -70,6 +77,13 @@ GEM
       activesupport (= 3.2.1)
       bundler (~> 1.0)
       railties (= 3.2.1)
+<<<<<<< HEAD
+=======
+    rails-backbone (0.6.1)
+      coffee-script (~> 2.2.0)
+      ejs (~> 1.0.0)
+      railties (>= 3.1.0)
+>>>>>>> d23b49b49753b4d7e51a3493d512ab31a9a58e6b
     railties (3.2.1)
       actionpack (= 3.2.1)
       activesupport (= 3.2.1)
@@ -89,6 +103,14 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
+<<<<<<< HEAD
+=======
+    therubyracer-heroku (0.8.1.pre3)
+    thin (1.3.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+>>>>>>> d23b49b49753b4d7e51a3493d512ab31a9a58e6b
     thor (0.14.6)
     tilt (1.3.3)
     treetop (1.4.10)
@@ -106,6 +128,15 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   mysql2
+<<<<<<< HEAD
   rails (= 3.2.1)
   sass-rails (~> 3.2.3)
+=======
+  pg
+  rails (= 3.2.1)
+  rails-backbone
+  sass-rails (~> 3.2.3)
+  therubyracer-heroku (= 0.8.1.pre3)
+  thin
+>>>>>>> d23b49b49753b4d7e51a3493d512ab31a9a58e6b
   uglifier (>= 1.0.3)
